@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { GameController, Brain } from "lucide-react";
+import { Gamepad2, Brain } from "lucide-react";
 
 const Index = () => {
   return (
@@ -38,7 +38,7 @@ const Index = () => {
               {/* Memory Game Card */}
               <div className="game-card bg-white rounded-xl shadow-lg overflow-hidden border border-border">
                 <div className="h-48 bg-primary/20 flex items-center justify-center">
-                  <GameController className="h-20 w-20 text-primary" />
+                  <Gamepad2 className="h-20 w-20 text-primary" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-2">Игра Память</h3>
