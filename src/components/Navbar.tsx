@@ -1,14 +1,14 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { GameController, Brain, Home } from "lucide-react";
+import { Gamepad2, Brain, Home } from "lucide-react";
 
 const Navbar = () => {
   return (
     <nav className="bg-primary text-primary-foreground py-4 px-6 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="text-2xl font-bold flex items-center gap-2">
-          <GameController className="h-6 w-6" />
+          <Gamepad2 className="h-6 w-6" />
           <span>ИгроТека</span>
         </Link>
         
@@ -22,7 +22,7 @@ const Navbar = () => {
           
           <Button asChild variant="ghost" className="text-primary-foreground hover:bg-primary/80">
             <Link to="/memory-game" className="flex items-center gap-2">
-              <GameController className="h-5 w-5" />
+              <Gamepad2 className="h-5 w-5" />
               <span>Игра Память</span>
             </Link>
           </Button>
